@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nobel Prize Winners</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <header>
+        <h1>Nobel Prize Winners</h1>
+        <p>Explore Nobel Prize laureates by year and category</p>
+    </header>
+    
+    <section class="content">
+        <section class="filters">
+            <h2>Select a Year:</h2>
+            <select id="yearDropdown">
+                <option value="">Select a Year</option>
+            </select>
+        </section>
+    
+        <section class="prizes-list">
+            <h2>Prize Winners</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Year</th>
+                        <th>Category</th>
+                        <th>First Name</th>
+                        <th>Last Name</th>
+                        <th>Motivation</th>
+                        <th>Shares</th>
+                    </tr>
+                </thead>
+                <tbody id="data-output"></tbody>
+            </table>
+        </section>
+        
+    </section>
+
+    <script src="fetch.js"></script>
+</body>
+</html>

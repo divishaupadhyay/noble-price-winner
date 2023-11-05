@@ -30,7 +30,7 @@ function displayPrizeData(selectedYear) {
                                 <td>${prize.category}</td>
                                 <td>${laureate.firstname}</td>
                                 <td>${laureate.surname}</td>
-                                <td>${prize.motivation}</td>
+                                <td>${laureate.motivation}</td>
                                 <td>${laureate.share}</td>
                             </tr>
                         `;

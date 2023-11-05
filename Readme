@@ -1,0 +1,36 @@
+# Nobel Prize Winners Web App
+
+This web app allows you to explore Nobel Prize laureates and specifically highlights laureates who have won the prize more than once.
+
+## Features
+
+- Display Nobel Prize laureates by year and category.
+- Automatically show information about laureates who have won more than once.
+- Filter laureates by year (select a year from the dropdown).
+
+## How to Use
+
+1. Clone this repository to your local machine.
+
+2. Open `index.html` in your web browser to run the app.
+
+3. Select a year from the dropdown to see Nobel Prize winners for that year.
+
+4. The app will automatically display information about laureates who have won the prize more than once.
+
+## Data Source
+
+The data is fetched from a JSON file (`data.json`) that contains information about Nobel Prize laureates.
+
+## Development
+
+This project uses HTML, CSS, and JavaScript. You can modify the code to customize the app as needed.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- Data source: [Nobel Prize API](http://api.nobelprize.org/v1/prize.json)
+- Inspired by the concept of showcasing Nobel Prize winners.
